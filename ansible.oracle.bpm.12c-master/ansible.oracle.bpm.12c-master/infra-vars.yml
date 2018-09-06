@@ -1,0 +1,34 @@
+# Oracle os user and group
+oracle_user: 'oracle'
+oracle_group: 'oinstall'
+# Software and configuration main directory
+oracle_base: '/u01/oracle/fmw12.2.1'
+
+# JDK installer and target folder
+jdk_installation_archive: 'jdk-8u101-linux-x64.tar.gz'
+jdk_folder: '{{ oracle_base }}/jdk1.8.0_101'
+
+# fmw installer
+mw_installer: 'fmw_12.2.1.2.0_infrastructure.jar'
+soa_installer: 'fmw_12.2.1.2.0_soa.jar'
+
+# database settings for repository
+dbserver_name: 'dbserver.com'
+dbserver_port: '1521'
+dbserver_service: 'db.service'
+repository_prefix: 'bpm1'
+soa_repo_preffix: '{{ repository_prefix }}'
+
+# SOA/BPM install type ex SOA Suite, BPM
+soa_install_type: 'BPM'
+
+# Domain Name
+domain_name: 'bpm_domain'
+
+# Nodemanager and server settings
+node_manager_listen_port: '5556'
+node_manager_listen_address: 'localhost'
+admin_server_hostname: 'localhost'
+admin_server_port: '7001'
+managed_server_name: 'soa_server1'
+managed_server_port: '8001'

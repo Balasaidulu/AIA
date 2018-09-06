@@ -1,0 +1,13 @@
+/opt/aia/Middleware_wls/wlserver_10.3/common/bin/wlst.sh
+
+/opt/aia/Middleware_wls/wlserver_10.3/common/templates/domains
+
+ jar "/opt/aia/Middleware_wls/wlserver_10.3/common/templates/domains/wls/wls.jar
+
+ 
+ oracle.soa_template_111160_111170.jar
+ 
+ /opt/aia/Middleware_wls/Oracle_SOA1/common/templates/was/oracle.soa_template_111160_111170.jar
+ 
+ 
+ /opt/aia/Middleware_wls/Oracle_SOA1/common/templates/applications/oracle.soa_template_111160_111170.jar
